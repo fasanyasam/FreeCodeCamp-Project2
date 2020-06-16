@@ -4,14 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title> FreeCodeCamp Project1 </title>
-
+  <title> FreeCodeCamp Project 2 </title>
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
-    
+    <main>
+        <h1 id="title">
+            Free Code Camp Project 2
+        </h1>
+        <p> <i>Fill out the survey form below. </i></p>
+        <form id="survey-form"> <br>
+            <label id="name-label">Fullname </label><br>
+            <input type="text" id="name" placeholder="Full name"> <br> <br>
+            <label id="email-label">Email address </label><br>
+            <input type="email" id="email" placeholder="example@email.com" required> <br> <br>
+            <label id="number-label">Age  </label><br>
+            <input type="number" id="number" placeholder="Age"> <br> <br>
+            <label id="pnumber">Phone number  </label><br>
+            <input type="tel" id="pnumber" placeholder="+234 xxx xxx xxxx"> <br> <br>
+            <label id="gender">Gender</label><br>
+            <select name="gender">
+                <option value="">Choose your gender</option>	 
+                <option value="Male">Male</option>	                                  
+                <option value="Female"> Female </option>
+            </select> <br> <br> 
+            <label id="fav-feature"> What is your favourite feature of freeCodeCamp? </label><br>
+            <select name="features">
+                <option value="select"> Select an option  </option>
+                <option value="challenges"> Challenges  </option>
+                <option value="project"> Project  </option>
+                <option value="community"> Community  </option>
+                <option value="open-source"> Open source  </option>
+            </select> <br> <br> 
+            <label name="to-improve"> What would you like to see improved? <span> (Check all that apply) </span></label>  <br> <br> 
+            <input type="checkbox" id="frontend" name="frontend" value="frontend">
+            <label for="frontend"> Frontend </label><br>
+            <input type="checkbox" id="backend" name="backend" value="backend">
+            <label for="backend"> Backend</label><br><br>
+            <label for="comments"> Comments or Suggestions </label><br>
+            <textarea id="comments"> </textarea><br>
+            <button id="submit" type="submit">Submit</button>
+        </input>
+        </form>
+
+    </main>
 
 </body>
 </html>
